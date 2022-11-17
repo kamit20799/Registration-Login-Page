@@ -45,7 +45,7 @@ html {
   
   .login-box .user-box input{
     width: 100%;
-    padding: 8px;
+    padding: 8px 0 8px 5px;
     font-size: 16px;
     color: rgb(0, 0, 0);
     border: none;
@@ -92,27 +92,29 @@ html {
   }
   
   .login-box form .login-link {
-    position: relative;
-    /* display: inline-block; */
-    padding: 3px 2px;
-    color: #03e9f4;
-    font-size: 16x;
-    text-decoration: none;
-    overflow: hidden;
-    transition: .5s;
-    /* margin-top: 40px; */
-    letter-spacing: 4px;
-    /* text-align: center; */
-  }
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 20px;
+  overflow: hidden;
+  letter-spacing: 2px;
+  color: white;
+  border: 3px solid white;
+  padding: 12px 20px;
+  box-shadow: 6px 6px 5px #81C6E8;
+}
   
-  .login-box .submit-link:hover {
-    background: #03e9f4;
-    color: #fff;
-    border-radius: 1px;
-    box-shadow: 0 0 5px #03e9f4,
+  .login-box .login-link:hover {
+    background: white;
+    color: #5DA7DB;
+    border-radius: 2px;
+    font-weight: 700;
+    /* box-shadow: 0 0 5px #03e9f4,
                 0 0 25px #03e9f4,
                 0 0 50px #03e9f4,
-                0 0 100px #03e9f4;
+                0 0 100px #03e9f4; */
   }
   
   
