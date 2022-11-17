@@ -100,21 +100,31 @@ html {
   margin-top: 20px;
   overflow: hidden;
   letter-spacing: 2px;
-  color: white;
+  color: #5DA7DB;
   border: 3px solid white;
   padding: 12px 20px;
   box-shadow: 6px 6px 5px #81C6E8;
+  margin-bottom: 20px;
+  background: white;
+  font-weight: 700;
 }
   
   .login-box .login-link:hover {
-    background: white;
-    color: #5DA7DB;
+    background: transparent;
+    color: white;
     border-radius: 2px;
     font-weight: 700;
-    /* box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 100px #03e9f4; */
   }
   
-  
+  .center {
+    margin-left: 75px;
+    color: grey;
+  }
+
+  .forgot-link {
+    padding-left: 4px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    letter-spacing: 1px;
+  }
